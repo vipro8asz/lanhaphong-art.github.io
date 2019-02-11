@@ -1,0 +1,52 @@
+div#container {
+   margin: 0 auto 0 auto;
+   position: relative;
+   text-align: left;
+   width: 754px;
+}
+body {
+   background-attachment: fixed;
+   background-color: #FFFFFF;
+   background-image: url(images/be_a_panda-wallpaper-1920x1080.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #000000;
+   font-family: Arial;
+   font-size: 19px;
+   font-weight: normal;
+   line-height: 1;
+   margin: 0;
+   text-align: center;
+}
+#Table1 {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #000000 solid;
+   border-collapse: collapse;
+   border-spacing: 0px;
+}
+#Table1 td {
+   padding: 0px 0px 0px 0px;
+}
+#Table1 .cell0 {
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   font-size: 0;
+   height: 902px;
+   text-align: left;
+   vertical-align: top;
+   width: 588px;
+}
+#wb_ {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_ div {
+   text-align: center;
+}
