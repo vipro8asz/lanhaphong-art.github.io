@@ -1,0 +1,14 @@
+
+.font-preview-content {
+    height: 100px;
+    width: 80%;
+    color: #00BFFF;
+    font-family: "Comic Sans MS";
+}
+
+user agent stylesheet
+input, textarea, select, button {
+    color: #FF0000;
+    font-family: "Comic Sans MS";
+    font-size: 25px;
+}
