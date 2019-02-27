@@ -228,4 +228,14 @@
             }
          }
       });
+      $("#PanelMenu1").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'overlay', position: 'top', toggle: true});
+      $("#PanelMenu1_markup ul li a").click(function(event)
+      {
+          $.panel.hide($("#PanelMenu1_panel"));
+      });
+      $("#PanelMenu2").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'overlay', position: 'top', toggle: true});
+      $("#PanelMenu2_markup ul li a").click(function(event)
+      {
+          $.panel.hide($("#PanelMenu2_panel"));
+      });
    });

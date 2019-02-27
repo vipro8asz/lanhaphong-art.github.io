@@ -1,9 +1,3 @@
-div#container {
-   margin: 0 auto 0 auto;
-   position: relative;
-   text-align: left;
-   width: 1000px;
-}
 body {
    background-color: #FFFFFF;
    color: #000000;
@@ -12,7 +6,7 @@ body {
    font-weight: normal;
    line-height: 1;
    margin: 0;
-   text-align: center;
+   padding: 0;
 }
 #InlineFrame1 {
    border: 1px #000000 solid;
