@@ -1,0 +1,171 @@
+div#container {
+   margin: 0 auto 0 auto;
+   position: relative;
+   text-align: left;
+   width: 500px;
+}
+body {
+   background-attachment: fixed;
+   background-color: #FFFFFF;
+   background-image: url(images/dream_love_house-wallpaper-1920x1080.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #000000;
+   font-family: Arial;
+   font-size: 19px;
+   font-weight: normal;
+   line-height: 1;
+   margin: 0;
+   overflow-x: auto;
+   overflow-y: auto;
+   text-align: center;
+}
+#wb_Trang_VipImage1 {
+   vertical-align: top;
+}
+#Trang_VipImage1 {
+   border: 0px #000000 solid;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   height: 72px;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+   width: 100px;
+}
+#wb_Trang_VipImage3 {
+   vertical-align: top;
+}
+#Trang_VipImage3 {
+   border: 0px #000000 solid;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   height: 54px;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+   width: 213px;
+}
+#wb_Trang_VipImage2 {
+   vertical-align: top;
+}
+#Trang_VipImage2 {
+   border: 0px #000000 solid;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   height: 55px;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+   width: 142px;
+}
+#wb_ {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_ div {
+   text-align: center;
+   white-space: nowrap;
+}
+#wb_ {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_ div {
+   text-align: center;
+   white-space: nowrap;
+}
+#wb_Trang_VipImage4 {
+   vertical-align: top;
+}
+#Trang_VipImage4 {
+   border: 0px #000000 solid;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   height: 149px;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+   width: 320px;
+}
+#Trang_VipMediaPlayer {
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+#wb_Trang_VipMediaPlayer {
+   display: block;
+   height: 50px;
+   position: relative;
+   vertical-align: top;
+}
+#Trang_VipTable1 {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #000000 solid;
+   border-collapse: collapse;
+   border-spacing: 0px;
+}
+#Trang_VipTable1 td {
+   padding: 0px 0px 0px 0px;
+}
+#Trang_VipTable1 .cell0 {
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   font-size: 0;
+   height: 952px;
+   text-align: center;
+   vertical-align: top;
+   width: 498px;
+}
+#wb_Trang_VipImage5 {
+   vertical-align: top;
+}
+#Trang_VipImage5 {
+   border: 0px #000000 solid;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   height: 50px;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+   width: 90px;
+}
+#indexSlideShow1 .image {
+   border-width: 0;
+   display: block;
+   float: left;
+   height: auto;
+   width: 100%;
+}
+#indexSlideShow1 li {
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+#indexSlideShow1 {
+   display: inline-block;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   width: 100%;
+}

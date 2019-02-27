@@ -1,0 +1,103 @@
+div#container {
+   margin: 0 auto 0 auto;
+   position: relative;
+   text-align: left;
+   width: 235px;
+}
+body {
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-size: 19px;
+   font-weight: normal;
+   line-height: 1;
+   margin: 0;
+   text-align: center;
+}
+#wb_Heading1 {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   padding: 0px 0px 0px 0px;
+}
+#Heading1 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+   font-weight: bold;
+   margin: 0;
+   text-align: center;
+}
+#indexPagination1 {
+   border-radius: 4px;
+   display: inline-block;
+   font-family: Arial;
+   font-size: 0;
+   font-weight: normal;
+   list-style: none;
+   padding: 0;
+}
+#indexPagination1 > li {
+   display: inline;
+   font-size: 19px;
+}
+#indexPagination1 > li > a,
+#indexPagination1 > li > span {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #DDDDDD solid;
+   color: #00BFFF;
+   float: left;
+   margin-left: -1px;
+   padding: 6px 12px 6px 12px;
+   position: relative;
+   text-decoration: none;
+}
+#indexPagination1 > li:first-child > a,
+#indexPagination1 > li:first-child > span {
+   -moz-border-bottom-left-radius: 4px;
+   -moz-border-top-left-radius: 4px;
+   -webkit-border-bottom-left-radius: 4px;
+   -webkit-border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+   margin-left: 0;
+}
+#indexPagination1 > li:last-child > a,
+#indexPagination1 > li:last-child > span {
+   -moz-border-bottom-right-radius: 4px;
+   -moz-border-top-right-radius: 4px;
+   -webkit-border-bottom-right-radius: 4px;
+   -webkit-border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#indexPagination1 > li > a:hover,
+#indexPagination1 > li > span:hover,
+#indexPagination1 > li > a:focus,
+#indexPagination1 > li > span:focus {
+   background-color: #CCCCCC;
+   color: #23527C;
+}
+#indexPagination1 > .active > a,
+#indexPagination1 > .active > span,
+#indexPagination1 > .active > a:hover,
+#indexPagination1 > .active > span:hover,
+#indexPagination1 > .active > a:focus,
+#indexPagination1 > .active > span:focus {
+   background-color: #337AB7;
+   border-color: #337AB7;
+   color: #FFFFFF;
+   cursor: default;
+   z-index: 2;
+}
+#indexPagination1 > .disabled > span,
+#indexPagination1 > .disabled > span:hover,
+#indexPagination1 > .disabled > span:focus,
+#indexPagination1 > .disabled > a,
+#indexPagination1 > .disabled > a:hover,
+#indexPagination1 > .disabled > a:focus {
+   background-color: #FFFFFF;
+   color: #777777;
+   cursor: not-allowed;
+}

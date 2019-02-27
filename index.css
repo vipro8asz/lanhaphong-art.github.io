@@ -73,6 +73,7 @@ body {
 #indexPanelMenu1_panel {
    display: none;
    position: absolute;
+   position: fixed;
    width: 100%;
    z-index: 9999;
 }
@@ -403,6 +404,7 @@ body {
 #PanelMenu1_panel {
    display: none;
    position: absolute;
+   position: fixed;
    width: 100%;
    z-index: 9999;
 }
@@ -490,6 +492,7 @@ body {
 #PanelMenu2_panel {
    display: none;
    position: absolute;
+   position: fixed;
    width: 100%;
    z-index: 9999;
 }
