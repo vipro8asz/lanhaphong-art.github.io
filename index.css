@@ -73,6 +73,7 @@ body {
 #indexPanelMenu1_panel {
    display: none;
    position: absolute;
+
    width: 100%;
    z-index: 9999;
 }
@@ -134,7 +135,7 @@ body {
 #indexMarquee1 {
    display: block;
    float: left;
-   height: 68px;
+   height: 113px;
    vertical-align: top;
    width: 100%;
 }
@@ -147,8 +148,8 @@ body {
    border-radius: 4px;
    box-sizing: border-box;
    color: #000000;
-   font-family: Arial;
-   font-size: 13px;
+   font-family: "Comic Sans MS";
+   font-size: 19px;
    font-weight: normal;
    padding: 0px 0px 0px 0px;
    text-align: left;
@@ -157,8 +158,8 @@ body {
 .autocomplete {
    background: #FFFFFF;
    border: 1px solid #CCCCCC;
-   font-family: Arial;
-   font-size: 13px;
+   font-family: "Comic Sans MS";
+   font-size: 19px;
    font-weight: normal;
    list-style-type: none;
    margin: 0;
@@ -403,6 +404,7 @@ body {
 #PanelMenu1_panel {
    display: none;
    position: absolute;
+
    width: 100%;
    z-index: 9999;
 }
@@ -490,6 +492,7 @@ body {
 #PanelMenu2_panel {
    display: none;
    position: absolute;
+
    width: 100%;
    z-index: 9999;
 }
@@ -542,4 +545,18 @@ body {
    height: 20px;
    line-height: 20px;
    vertical-align: middle;
+}
+#wb_Image4 {
+   vertical-align: top;
+}
+#Image4 {
+   border: 0px #000000 solid;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   height: 105px;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+   width: 95px;
 }
