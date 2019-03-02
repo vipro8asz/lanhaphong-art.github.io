@@ -4,7 +4,6 @@
    $('#Slide_Show img').attr('title', '');$('#Slide_Show').galleria({});
 });
 var kt=false
-alert('Hãy xoay ngang màn hình để hiện thị được tốt hơn')
 alert('Chào em ;)')
 alert('Web dành cho người mới quen')
 alert('Hi My Girl ~ I Super')
@@ -33,7 +32,7 @@ function Thông_báo_Cick()
 {alert('Tình thì không thiếu chủ yếu chưa có người yêu')
 kt=true}
 else
-{alert('Yêu anh đi em anh không đòi quà')
+{alert('Em đã Click vào Người yêu chưa ?')
 alert('>x<')
 alert('Nếu mà em hỏi: Anh có nguyện chết vì em không ?')
 alert('Thì câu trả lời là: Không còn sống lấy gì mà yêu ?')
