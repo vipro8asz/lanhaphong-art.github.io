@@ -1,9 +1,4 @@
-﻿$(document).ready(function()
-{
-   $("a[data-rel='Slide_Show']").attr('rel', 'Slide_Show');
-   $('#Slide_Show img').attr('title', '');$('#Slide_Show').galleria({});
-});
-var kt=false
+﻿var kt=false
 alert('Chào em ;)')
 alert('Web dành cho người mới quen')
 alert('Hi My Girl ~ I Super')
@@ -12,7 +7,6 @@ alert('Anh muốn hỏi <?')
 alert('Em muốn làm Bạn hay người yêu')
 alert('Hãy cho anh biết')
 alert('Đang chờ em duyệt')
- 
 
 function move()
 {var a = Math.random()*80
