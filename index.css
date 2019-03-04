@@ -2,7 +2,7 @@ div#container {
    margin: 0 auto 0 auto;
    position: relative;
    text-align: left;
-   width: 2200px;
+   width: 2198px;
 }
 body {
    background-attachment: fixed;
@@ -304,7 +304,7 @@ body {
    text-decoration: none;
 }
 #InlineFrame {
-   border: 1px #000000 solid;
+   border: 1px #BFBFBF solid;
 }
 #Table2 {
    background-color: transparent;
