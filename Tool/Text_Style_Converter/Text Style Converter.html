@@ -1,0 +1,908 @@
+﻿<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Text Style Converter - Vipro8ASz</title>
+    <link rel="stylesheet" href="style.css">
+    
+    </head><body style=""><center>
+    <h2>
+    
+    <textarea id="converting_text" placeholder="
+    Hãy Click vào đây
+    Nhập văn bản và chọn Copy
+    C Đình Phát, Nhã Phong TM
+    𝓥𝓲𝓹𝓻𝓸8𝓐𝓢𝔃 - ᒪᗗ ᘉᗁᕢ ᕾᖺᘎᘉᘜ
+    
+    " style="height: 250px; width: 80%; "></textarea>
+    
+    <div class="main_content" id="main_content">
+    <div class="row vertical-align" id="list-font-preview-container">
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Bubble</span>
+    <button class="mobile_only btn btn-info copy-btn-bubble" data-clipboard-target="#bubble">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-bubble" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="bubble" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Small caps </span>
+    <button class="mobile_only btn btn-info copy-btn-smallCaps" data-clipboard-target="#smallCaps">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-smallCaps" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="smallCaps" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Double Struck </span>
+    <button class="mobile_only btn btn-info copy-btn-doubleStruck" data-clipboard-target="#doubleStruck">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-doubleStruck" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="doubleStruck" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div id="first_inside_font" class="mobile_only">
+    </div>
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fraktur </span>
+    <button class="mobile_only btn btn-info copy-btn-fraktur" data-clipboard-target="#fraktur">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fraktur" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fraktur" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Bold Fraktur </span>
+    <button class="mobile_only btn btn-info copy-btn-boldFraktur" data-clipboard-target="#boldFraktur">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-boldFraktur" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="boldFraktur" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Currency </span>
+    <button class="mobile_only btn btn-info copy-btn-currency" data-clipboard-target="#currency">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-currency" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="currency" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Antrophobia </span>
+    <button class="mobile_only btn btn-info copy-btn-antrophobia" data-clipboard-target="#antrophobia">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-antrophobia" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="antrophobia" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Paranormal </span>
+    <button class="mobile_only btn btn-info copy-btn-paranormal" data-clipboard-target="#paranormal">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-paranormal" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="paranormal" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    
+    <button class="mobile_only btn btn-info copy-btn-blackBubble" data-clipboard-target="#blackBubble" style="display: none;">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-blackBubble" class="copy_text">Copy</span></button></div>
+    <div class="col-md-1 copy_btn_container dsk_only">
+    <button class="dsk_only btn btn-info copy-btn-blackBubble" data-clipboard-target="#blackBubble" style="display: none;">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-blackBubble" class="copy_text">Copy</span></button>
+    </div>
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Bold Script </span>
+    <button class="mobile_only btn btn-info copy-btn-boldScript" data-clipboard-target="#boldScript">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-boldScript" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="boldScript" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Hand Writing 1 </span>
+    <button class="mobile_only btn btn-info copy-btn-handWriting1" data-clipboard-target="#handWriting1">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-handWriting1" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="handWriting1" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Hand Writing 2 </span>
+    <button class="mobile_only btn btn-info copy-btn-handWriting2" data-clipboard-target="#handWriting2">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-handWriting2" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="handWriting2" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Bold </span>
+    <button class="mobile_only btn btn-info copy-btn-bold" data-clipboard-target="#bold">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-bold" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="bold" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Italic </span>
+    <button class="mobile_only btn btn-info copy-btn-italic" data-clipboard-target="#italic">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-italic" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="italic" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Bold Italic </span>
+    <button class="mobile_only btn btn-info copy-btn-boldItalic" data-clipboard-target="#boldItalic">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-boldItalic" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="boldItalic" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Monospace </span>
+    <button class="mobile_only btn btn-info copy-btn-monospace" data-clipboard-target="#monospace">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-monospace" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="monospace" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Sorcerer </span>
+    <button class="mobile_only btn btn-info copy-btn-sorcerer" data-clipboard-target="#sorcerer">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-sorcerer" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="sorcerer" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Strikethrough </span>
+    <button class="mobile_only btn btn-info copy-btn-strikethrough" data-clipboard-target="#strikethrough">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-strikethrough" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="strikethrough" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Tilde strikethrough </span>
+    <button class="mobile_only btn btn-info copy-btn-tildeStrikethrough" data-clipboard-target="#tildeStrikethrough">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-tildeStrikethrough" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="tildeStrikethrough" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Slash </span>
+    <button class="mobile_only btn btn-info copy-btn-slash" data-clipboard-target="#slash">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-slash" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="slash" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Underline </span>
+    <button class="mobile_only btn btn-info copy-btn-underline" data-clipboard-target="#underline">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-underline" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="underline" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Double underline </span>
+    <button class="mobile_only btn btn-info copy-btn-doubleUnderline" data-clipboard-target="#doubleUnderline">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-doubleUnderline" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="doubleUnderline" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="sponsored_ad">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5378560161704604" data-ad-slot="1825041275" data-ad-format="auto"></ins>
+    
+    </div>
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Special </span>
+    <button class="mobile_only btn btn-info copy-btn-special" data-clipboard-target="#special">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-special" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="special" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Boxed </span>
+    <button class="mobile_only btn btn-info copy-btn-boxed" data-clipboard-target="#boxed">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-boxed" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="boxed" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Blurry </span>
+    <button class="mobile_only btn btn-info copy-btn-blurry" data-clipboard-target="#blurry">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-blurry" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="blurry" value="����" class="font-preview-content">&lt;/div&gt;
+    &lt;div class="col-md-1 copy_btn_container dsk_only"&gt;
+    &lt;button class="dsk_only btn btn-info copy-btn-blurry" data-clipboard-target="#blurry"&gt;
+    &lt;span class="glyphicon glyphicon-copy"&gt;&lt;/span&gt;
+     &lt;span id="copy-text-blurry" class="copy_text"&gt;Copy&lt;/span&gt;&lt;/button&gt;
+    &lt;/div&gt;
+    
+    &lt;div class="font-preview-container"&gt;
+    &lt;div class="col-md-2 font_title"&gt;
+    &lt;span class="font_name"&gt;Stinky &lt;/span&gt;
+    &lt;button class="mobile_only btn btn-info copy-btn-stinky" data-clipboard-target="#stinky"&gt;
+    &lt;span class="glyphicon glyphicon-copy"&gt;&lt;/span&gt;
+     &lt;span id="copy-text-stinky" class="copy_text"&gt;Copy&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;
+    &lt;div class="col-md-9 font-preview-content-container"&gt;
+    &lt;textarea id="stinky" class="font-preview-content"&gt;
+    &lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Dirty </span>
+    <button class="mobile_only btn btn-info copy-btn-dirty" data-clipboard-target="#dirty">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-dirty" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="dirty" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Knight </span>
+    <button class="mobile_only btn btn-info copy-btn-knight" data-clipboard-target="#knight">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-knight" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="knight" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Emoji text </span>
+    <button class="mobile_only btn btn-info copy-btn-emoji-text" data-clipboard-target="#emoji-text">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-emoji-text" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="emoji-text" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Fairy </span>
+    <button class="mobile_only btn btn-info copy-btn-fairy" data-clipboard-target="#fairy">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fairy" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fairy" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Square </span>
+    <button class="mobile_only btn btn-info copy-btn-square" data-clipboard-target="#square">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-square" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="square" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Thin </span>
+    <button class="mobile_only btn btn-info copy-btn-thin" data-clipboard-target="#thin">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-thin" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="thin" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Tiny </span>
+    <button class="mobile_only btn btn-info copy-btn-tiny" data-clipboard-target="#tiny">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-tiny" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="tiny" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name">Upside down </span>
+    <button class="mobile_only btn btn-info copy-btn-upsideDown" data-clipboard-target="#upsideDown">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-upsideDown" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="upsideDown" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Bridge above </span>
+    <button class="mobile_only btn btn-info copy-btn-bridge_above" data-clipboard-target="#bridge_above">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-bridge_above" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="bridge_above" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Bridge bellow </span>
+    <button class="mobile_only btn btn-info copy-btn-bridge_bellow" data-clipboard-target="#bridge_bellow">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-bridge_bellow" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="bridge_bellow" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Asterisk bellow </span>
+    <button class="mobile_only btn btn-info copy-btn-asterisk_bellow" data-clipboard-target="#asterisk_bellow">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-asterisk_bellow" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <input id="asterisk_bellow" class="font-preview-content">
+    </div>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Plus sign bellow </span>
+    <button class="mobile_only btn btn-info copy-btn-plus_sign_bellow" data-clipboard-target="#plus_sign_bellow">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-plus_sign_bellow" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="plus_sign_bellow" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> x above bellow </span>
+    <button class="mobile_only btn btn-info copy-btn-x_above_bellow" data-clipboard-target="#x_above_bellow">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-x_above_bellow" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="x_above_bellow" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Arrow bellow </span>
+    <button class="mobile_only btn btn-info copy-btn-upward_arrow_bellow" data-clipboard-target="#upward_arrow_bellow">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-upward_arrow_bellow" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="upward_arrow_bellow" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Love </span>
+    <button class="mobile_only btn btn-info copy-btn-love" data-clipboard-target="#love">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-love" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="love" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Black bracket </span>
+    <button class="mobile_only btn btn-info copy-btn-black-bracket" data-clipboard-target="#black-bracket">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-black-bracket" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="black-bracket" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> White bracket </span>
+    <button class="mobile_only btn btn-info copy-btn-white-bracket" data-clipboard-target="#white-bracket">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-white-bracket" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="white-bracket" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Black square </span>
+    <button class="mobile_only btn btn-info copy-btn-blackSquare" data-clipboard-target="#blackSquare">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-blackSquare" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="blackSquare" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Magic </span>
+    <button class="mobile_only btn btn-info copy-btn-magic" data-clipboard-target="#magic">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-magic" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="magic" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="sponsored_ad">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5378560161704604" data-ad-slot="1825041275" data-ad-format="auto"></ins>
+    
+    </div>
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 1 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle1" data-clipboard-target="#fancyStyle1">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle1" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <input id="fancyStyle1" class="font-preview-content">
+    </div>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 2 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle2" data-clipboard-target="#fancyStyle2">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle2" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle2" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 3 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle3" data-clipboard-target="#fancyStyle3">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle3" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle3" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 4 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle4" data-clipboard-target="#fancyStyle4">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle4" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle4" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 5 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle5" data-clipboard-target="#fancyStyle5">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle5" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle5" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 6 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle6" data-clipboard-target="#fancyStyle6">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle6" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle6" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 7 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle7" data-clipboard-target="#fancyStyle7">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle7" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle7" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 8 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle8" data-clipboard-target="#fancyStyle8">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle8" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle8" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 9 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle9" data-clipboard-target="#fancyStyle9">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle9" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle9" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 10 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle10" data-clipboard-target="#fancyStyle10">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle10" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle10" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 11 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle11" data-clipboard-target="#fancyStyle11">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle11" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle11" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 12 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle12" data-clipboard-target="#fancyStyle12">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle12" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle12" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 13 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle13" data-clipboard-target="#fancyStyle13">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle13" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle13" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 14 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle14" data-clipboard-target="#fancyStyle14">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle14" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle14" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 15 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle15" data-clipboard-target="#fancyStyle15">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle15" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle15" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 16 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle16" data-clipboard-target="#fancyStyle16">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle16" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle16" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 17 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle17" data-clipboard-target="#fancyStyle17">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle17" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle17" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 18 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle18" data-clipboard-target="#fancyStyle18">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle18" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle18" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 19 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle19" data-clipboard-target="#fancyStyle19">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle19" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle19" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 20 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle20" data-clipboard-target="#fancyStyle20">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle20" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle20" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 21 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle21" data-clipboard-target="#fancyStyle21">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle21" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <input id="fancyStyle21" class="font-preview-content">
+    </div>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 22 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle22" data-clipboard-target="#fancyStyle22">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle22" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle22" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 23 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle23" data-clipboard-target="#fancyStyle23">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle23" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle23" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 24 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle24" data-clipboard-target="#fancyStyle24">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle24" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle24" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 25 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle25" data-clipboard-target="#fancyStyle25">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle25" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle25" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 26 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle26" data-clipboard-target="#fancyStyle26">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle26" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle26" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 27 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle27" data-clipboard-target="#fancyStyle27">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle27" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle27" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 28 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle28" data-clipboard-target="#fancyStyle28">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle28" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle28" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 29 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle29" data-clipboard-target="#fancyStyle29">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle29" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle29" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 30 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle30" data-clipboard-target="#fancyStyle30">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle30" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle30" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 31 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle31" data-clipboard-target="#fancyStyle31">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle31" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle31" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 32 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle32" data-clipboard-target="#fancyStyle32">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle32" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle32" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 33 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle33" data-clipboard-target="#fancyStyle33">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle33" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle33" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 34 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle34" data-clipboard-target="#fancyStyle34">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle34" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle34" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 35 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle35" data-clipboard-target="#fancyStyle35">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle35" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle35" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 36 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle36" data-clipboard-target="#fancyStyle36">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle36" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle36" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 37 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle37" data-clipboard-target="#fancyStyle37">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle37" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle37" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> Fancy style 38 </span>
+    <button class="mobile_only btn btn-info copy-btn-fancyStyle38" data-clipboard-target="#fancyStyle38">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-fancyStyle38" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="fancyStyle38" class="font-preview-content">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> <span>Decoration style 1</span> </span>
+    <button class="mobile_only btn btn-info copy-btn-textdecor_style1" data-clipboard-target="#textdecor_style1">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-textdecor_style1" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="textdecor_style1" value="��·.·´¯`·.·�� preview text ��·.·´¯`·.·��" class="font-preview-content text-decoration-content demo" readonly="">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> <span>Decoration style 2</span> </span>
+    <button class="mobile_only btn btn-info copy-btn-textdecor_style2" data-clipboard-target="#textdecor_style2">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-textdecor_style2" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="textdecor_style2" value="�� �� �� �� �� �� �� preview text �� �� �� �� �� �� ��" class="font-preview-content text-decoration-content demo" readonly="">&lt;/div&gt;</textarea>
+    
+    
+    <div class="font-preview-container">
+    <div class="col-md-2 font_title">
+    <span class="font_name"> <span>Decoration style 3</span> </span>
+    <button class="mobile_only btn btn-info copy-btn-textdecor_style3" data-clipboard-target="#textdecor_style3">
+    <span class="glyphicon glyphicon-copy"></span>
+     <span id="copy-text-textdecor_style3" class="copy_text">Copy</span></button></div>
+    <div class="col-md-9 font-preview-content-container">
+    <textarea id="textdecor_style3" value="°°°·.°·..·°¯°·._.· preview text ·._.·°¯°·.·° .·°°°" class="font-preview-content text-decoration-content demo" readonly="">&lt;/div&gt;</textarea>
+    
+    
+    <div id="before_symbols_in_fancytext_mobile" class="">
+    </div>
+    
+    
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script src="clipboard.min.js"></script>
+    <script src="fancy_text.js"></script></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></h2></center></body></html>

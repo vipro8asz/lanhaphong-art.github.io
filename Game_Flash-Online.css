@@ -10,11 +10,12 @@ body {
    background-image: url(images/Background-Flash_01.jpg);
    background-position: center center;
    background-repeat: no-repeat;
+   background-size: cover;
    color: #000000;
-   font-family: Arial;
-   font-size: 19px;
+   font-family: "Comic Sans MS";
+   font-size: 20px;
    font-weight: normal;
-   line-height: 1.1875;
+   line-height: 1;
    margin: 0;
    text-align: center;
 }

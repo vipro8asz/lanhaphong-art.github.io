@@ -5,15 +5,10 @@ div#container {
    width: 500px;
 }
 body {
-   background-attachment: fixed;
    background-color: #FFFFFF;
-   background-image: url(images/dream_love_house-wallpaper-1920x1080.jpg);
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-size: cover;
    color: #000000;
-   font-family: Arial;
-   font-size: 19px;
+   font-family: "Comic Sans MS";
+   font-size: 20px;
    font-weight: normal;
    line-height: 1;
    margin: 0;

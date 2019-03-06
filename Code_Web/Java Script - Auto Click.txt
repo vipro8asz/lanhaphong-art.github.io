@@ -1,0 +1,65 @@
+﻿JavaScript:
+
+
+var Input = prompt("Code tự động Click - C Đình Phát ( Nhã Phong ) TM");
+var delayInput = prompt("Tốc độ chậm Click (ms)", "800 tốc độ vừa");
+var sbottomAfter = prompt("Dừng Click khi đạt:", "1000 lần Click");
+
+
+var workDelay = parseInt(delayInput, 10); var loading = document
+.createElement("div"); loading
+.setAttribute("id", "Tự_động_Click"); loading
+.setAttribute("style", "position: fixed; background-color: #FFFF00; bottom: 0%; left: 0; width: 100%; font-family:Arial;font-size:20px; text-align:center;");
+document.body.appendChild(loading); document.getElementById("Tự_động_Click")
+
+
+.innerHTML = "Chỉ dùng được nếu đã chỉ định đúng:<br>Mã Code Id Cần Click<br>Không có gì để Click";
+
+
+var inputs = document.querySelectorAll('.Mã Code Id chỉ định cần Click:not(.hidden_elem)');
+
+
+var i=0; var delay=0; var cont=true; var sbottomAfterNumber=0; if(parseInt(sbottomAfter, 10)>inputs.length)
+{ sbottomAfterNumber=inputs.length; }
+else
+{ sbottomAfterNumber=parseInt(sbottomAfter, 10); } function Tự_động_Click(max)
+{ if(inputs.length<=0)
+{ document.getElementById("Tự_động_Click")
+.setAttribute ("style", "position: fixed; background-color: #FFFF00; bottom: 0%; left: 0; width: 100%; font-family:Arial;font-size:20px; text-align:center;");
+document.getElementById("Tự_động_Click")
+
+
+.innerHTML = "No 'Tự_động_Click'-buttons found :("; alert(" Chỉ dùng được nếu đã chỉ định đúng: Mã Code Id Cần Click ");
+
+
+document.getElementById("Tự_động_Click")
+.setAttribute("style", "display: none;"); }
+else
+{ if(workDelay <= 0) { delay=0; }
+else if(workDelay <= 10)
+{ delay=workDelay+(Math.floor((Math.random()*5))); }
+else
+{ delay=workDelay+(Math.floor(Math.random()*(0.1*delay))-(0.05*workDelay)); } if(i<sbottomAfterNumber)
+{ inputs[i].click(); document.getElementById("Tự_động_Click")
+
+
+.innerHTML = i+" Số lượt đã Click "+delay+"ms"; cont=true; }
+
+
+else
+{ document.getElementById("Tự_động_Click")
+
+
+.innerHTML = i+"Hoàn tất tự động Click"; document.getElementById("Tự_động_Click")
+
+
+.setAttribute ("style", "position: fixed; background-color: #FFFF00; bottom: 0%; left: 0; width: 100%; font-family:Arial;font-size:20px; text-align:center;");
+cont=false; } i++; if(cont==true)
+{ setTimeout(Tự_động_Click, delay); }
+else
+
+
+{ alert("Hoàn tất tự động Click"); document.getElementById("Tự_động_Click")
+
+
+.setAttribute("style", "display: none;") } } } Tự_động_Click();
