@@ -1,0 +1,341 @@
+div#container {
+   margin: 0 auto 0 auto;
+   position: relative;
+   text-align: left;
+   width: 800px;
+}
+body {
+   background-attachment: fixed;
+   background-color: #FFFFFF;
+   background-image: url(images/colorful_abstraction-1920x1200.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #000000;
+   font-family: "Comic Sans MS";
+   font-size: 20px;
+   font-weight: normal;
+   line-height: 1;
+   margin: 0;
+   text-align: center;
+}
+#MenuBar1 {
+   background-color: transparent;
+   border: 1px solid #AAAAAA;
+}
+.MenuBar1SubMenu {
+   background-color: transparent;
+   border: 1px solid #AAAAAA;
+   overflow: visible;
+   position: absolute;
+   visibility: hidden;
+   z-index: 100;
+}
+.MenuBar1SubMenuTable {
+   border: 0;
+   cursor: default;
+   padding: 0;
+}
+.MenuBar1SubMenuTable tr {
+   margin: 0;
+   padding: 0;
+}
+.MenuBar1Menu {
+   background-color: transparent;
+   border-spacing: 0 0px;
+   margin: 0 0px 0 0px;
+   padding: 0;
+}
+.MenuBar1MenuOuter {
+   background-color: transparent;
+   border: 0px solid #AAAAAA;
+}
+.MenuBar1Menu tr {
+   margin: 0;
+   padding: 0;
+}
+.MenuBar1MainItem .MenuBar1MainItemLeft,
+.MenuBar1MainItem .MenuBar1MainFolderLeft {
+   border-width: 0;
+   cursor: pointer;
+   font-size: 1px;
+   padding: 3px 0px 3px 0px;
+   text-align: center;
+   width: 0px;
+}
+.MenuBar1MainItem .MenuBar1MainItemText,
+.MenuBar1MainItem .MenuBar1MainItemText a,
+.MenuBar1MainItem .MenuBar1MainFolderText,
+.MenuBar1MainItem .MenuBar1MainFolderText a {
+   background-color: #FFFFFF;
+   border-bottom: 0px solid #FFFFFF;
+   border-left: 0px solid #FFFFFF;
+   border-right: 0px solid #FFFFFF;
+   border-top: 0px solid #FFFFFF;
+   color: #2C2C2C;
+   cursor: pointer;
+   font-family: "Comic Sans MS";
+   font-size: 20px;
+   font-weight: normal;
+   line-height: 28px;
+   margin: 0;
+   padding: 5px 5px 5px 7px;
+   text-align: left;
+   text-decoration: none;
+   vertical-align: middle;
+   white-space: nowrap;
+}
+.MenuBar1MainItem .MenuBar1MainItemRight,
+.MenuBar1MainItem .MenuBar1MainFolderRight {
+   background-color: #FFFFFF;
+   border-bottom: 0px solid #FFFFFF;
+   border-left: 0;
+   border-right: 0px solid #FFFFFF;
+   border-top: 0px solid #FFFFFF;
+   cursor: pointer;
+   font-size: 1px;
+   padding: 5px 2px 5px 0px;
+   width: 14px;
+}
+.MenuBar1MainItemHover .MenuBar1MainItemLeft,
+.MenuBar1MainItemActive .MenuBar1MainItemLeft,
+.MenuBar1MainItemHover .MenuBar1MainFolderLeft,
+.MenuBar1MainItemActive .MenuBar1MainFolderLeft {
+   border-width: 0;
+   cursor: pointer;
+   font-size: 1px;
+   padding: 3px 0px 3px 0px;
+   width: 0px;
+}
+.MenuBar1MainItemHover .MenuBar1MainItemText,
+.MenuBar1MainItemActive .MenuBar1MainItemText,
+.MenuBar1MainItemHover .MenuBar1MainItemText a,
+.MenuBar1MainItemActive .MenuBar1MainItemText a,
+.MenuBar1MainItemHover .MenuBar1MainFolderText,
+.MenuBar1MainItemActive .MenuBar1MainFolderText,
+.MenuBar1MainItemHover .MenuBar1MainFolderText a,
+.MenuBar1MainItemActive .MenuBar1MainFolderText a {
+   background-color: #00BFFF;
+   border-bottom: 2px solid #FFFFFF;
+   border-left: 2px solid #FFFFFF;
+   border-right: 0px solid #FFFFFF;
+   border-top: 2px solid #FFFFFF;
+   color: #FFFFFF;
+   cursor: pointer;
+   font-family: "Comic Sans MS";
+   font-size: 20px;
+   font-weight: normal;
+   line-height: 28px;
+   margin: 0;
+   padding: 3px 5px 3px 5px;
+   text-align: left;
+   text-decoration: none;
+   vertical-align: middle;
+   white-space: nowrap;
+}
+.MenuBar1MainItemHover .MenuBar1MainItemRight,
+.MenuBar1MainItemActive .MenuBar1MainItemRight,
+.MenuBar1MainItemHover .MenuBar1MainFolderRight,
+.MenuBar1MainItemActive .MenuBar1MainFolderRight {
+   background-color: #00BFFF;
+   border-bottom: 2px solid #FFFFFF;
+   border-left: 0;
+   border-right: 2px solid #FFFFFF;
+   border-top: 2px solid #FFFFFF;
+   cursor: pointer;
+   font-size: 1px;
+   padding: 3px 0px 3px 0px;
+   width: 14px;
+}
+.MenuBar1MainItem .MenuBar1MainFolderRight {
+   background-image: url(images/Menu_Bar_MenuBar1_bkgrnd8.png);
+   background-position: left center;
+   background-repeat: no-repeat;
+}
+.MenuBar1MainItemHover .MenuBar1MainFolderRight,
+.MenuBar1MainItemActive .MenuBar1MainFolderRight {
+   background-image: url(images/Menu_Bar_MenuBar1_bkgrnd10.png);
+   background-position: left center;
+   background-repeat: no-repeat;
+}
+.MenuBar1MenuItem .MenuBar1MenuItemLeft,
+.MenuBar1MenuItem .MenuBar1MenuFolderLeft {
+   border-width: 0;
+   cursor: pointer;
+   font-size: 1px;
+   padding: 3px 0px 3px 0px;
+   text-align: center;
+   width: 0px;
+}
+.MenuBar1MenuItem .MenuBar1MenuItemText,
+.MenuBar1MenuItem .MenuBar1MenuItemText a,
+.MenuBar1MenuItem .MenuBar1MenuFolderText,
+.MenuBar1MenuItem .MenuBar1MenuFolderText a {
+   background-color: #FFFFFF;
+   border-bottom: 0px solid #FFFFFF;
+   border-left: 0px solid #FFFFFF;
+   border-right: 0px solid #FFFFFF;
+   border-top: 0px solid #FFFFFF;
+   color: #2C2C2C;
+   cursor: pointer;
+   font-family: Arial;
+   font-size: 19px;
+   font-weight: normal;
+   line-height: 22px;
+   margin: 0;
+   padding: 5px 5px 5px 7px;
+   text-align: left;
+   text-decoration: none;
+   vertical-align: middle;
+   white-space: nowrap;
+}
+.MenuBar1MenuItem .MenuBar1MenuItemRight,
+.MenuBar1MenuItem .MenuBar1MenuFolderRight {
+   background-color: #FFFFFF;
+   border-bottom: 0px solid #FFFFFF;
+   border-left: 0;
+   border-right: 0px solid #FFFFFF;
+   border-top: 0px solid #FFFFFF;
+   cursor: pointer;
+   font-size: 1px;
+   padding: 5px 2px 5px 0px;
+   width: 14px;
+}
+.MenuBar1MenuItemHover .MenuBar1MenuItemLeft,
+.MenuBar1MenuItemActive .MenuBar1MenuItemLeft,
+.MenuBar1MenuItemHover .MenuBar1MenuFolderLeft,
+.MenuBar1MenuItemActive .MenuBar1MenuFolderLeft {
+   border-width: 0;
+   cursor: pointer;
+   font-size: 1px;
+   padding: 3px 0px 3px 0px;
+   width: 0px;
+}
+.MenuBar1MenuItemHover .MenuBar1MenuItemText,
+.MenuBar1MenuItemActive .MenuBar1MenuItemText,
+.MenuBar1MenuItemHover .MenuBar1MenuItemText a,
+.MenuBar1MenuItemActive .MenuBar1MenuItemText a,
+.MenuBar1MenuItemHover .MenuBar1MenuFolderText,
+.MenuBar1MenuItemActive .MenuBar1MenuFolderText,
+.MenuBar1MenuItemHover .MenuBar1MenuFolderText a,
+.MenuBar1MenuItemActive .MenuBar1MenuFolderText a {
+   background-color: #00BFFF;
+   border-bottom: 2px solid #FFFFFF;
+   border-left: 2px solid #FFFFFF;
+   border-right: 0px solid #FFFFFF;
+   border-top: 2px solid #FFFFFF;
+   color: #FFFFFF;
+   cursor: pointer;
+   font-family: Arial;
+   font-size: 19px;
+   font-weight: normal;
+   line-height: 22px;
+   margin: 0;
+   padding: 3px 5px 3px 5px;
+   text-align: left;
+   text-decoration: none;
+   vertical-align: middle;
+   white-space: nowrap;
+}
+.MenuBar1MenuItemHover .MenuBar1MenuItemRight,
+.MenuBar1MenuItemActive .MenuBar1MenuItemRight,
+.MenuBar1MenuItemHover .MenuBar1MenuFolderRight,
+.MenuBar1MenuItemActive .MenuBar1MenuFolderRight {
+   background-color: #00BFFF;
+   border-bottom: 2px solid #FFFFFF;
+   border-left: 0;
+   border-right: 2px solid #FFFFFF;
+   border-top: 2px solid #FFFFFF;
+   cursor: pointer;
+   font-size: 1px;
+   padding: 3px 0px 3px 0px;
+   width: 14px;
+}
+.MenuBar1MenuItem .MenuBar1MenuFolderRight {
+   background-image: url(images/Menu_Bar_MenuBar1_bkgrnd18.png);
+   background-position: left center;
+   background-repeat: no-repeat;
+}
+.MenuBar1MenuItemHover .MenuBar1MenuFolderRight,
+.MenuBar1MenuItemActive .MenuBar1MenuFolderRight {
+   background-image: url(images/Menu_Bar_MenuBar1_bkgrnd20.png);
+   background-position: left center;
+   background-repeat: no-repeat;
+}
+.MenuBar1SubMenu td,
+.MenuBar1Menu td,
+.MenuBar1Menu tr {
+   vertical-align: middle;
+}
+.MenuBar1MenuSplitText div {
+   background-color: #000000;
+   height: 1px;
+   overflow: hidden;
+   padding: 0;
+}
+.MenuBar1MenuItem .MenuBar1MenuSplitLeft {
+   height: 7px;
+   padding: 0px 0px 0px 0px;
+}
+.MenuBar1MenuItem .MenuBar1MenuSplitText {
+   background-color: #FFFFFF;
+   height: 7px;
+   padding: 0px 6px 0px 6px;
+}
+.MenuBar1MenuItem .MenuBar1MenuSplitRight {
+   background-color: #FFFFFF;
+   height: 7px;
+   padding: 0px 0px 0px 0px;
+}
+.MenuBar1MainSplitText div {
+   background-color: #000000;
+   height: 1px;
+   overflow: hidden;
+   padding: 0;
+}
+.MenuBar1MainItem .MenuBar1MainSplitLeft {
+   height: 11px;
+   padding: 0px 0px 0px 0px;
+}
+.MenuBar1MainItem .MenuBar1MainSplitText {
+   background-color: #FFFFFF;
+   height: 11px;
+   padding: 0px 0px 0px 0px;
+}
+.MenuBar1MainItem .MenuBar1MainSplitRight {
+   background-color: #FFFFFF;
+   height: 11px;
+   padding: 0px 0px 0px 0px;
+}
+.MenuBar1MainItem {
+   vertical-align: middle;
+}
+.MenuBar1HorizontalSplit {
+   background-color: #FFFFFF;
+   border-left: 0 solid #8080FF;
+   border-right: 0 solid #8080FF;
+   color: #000000;
+   font-family: "Comic Sans MS";
+   font-size: 20px;
+   font-style: normal;
+   padding: 3px 0px 3px 0px;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: middle;
+   width: 19px;
+}
+.MenuBar1MainItem,
+.MenuBar1MainItemHover,
+.MenuBar1MainItemActive,
+.MenuBar1MenuItem,
+.MenuBar1MenuItemHover,
+.MenuBar1MenuItemActive {
+   white-space: nowrap;
+}
+.MenuBar1SpacerDiv {
+   background: transparent;
+   border: 0;
+   font-size: 1px;
+   margin: 0;
+   padding: 0;
+}
