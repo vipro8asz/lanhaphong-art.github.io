@@ -5,7 +5,12 @@ div#container {
    width: 500px;
 }
 body {
+   background-attachment: fixed;
    background-color: #FFFFFF;
+   background-image: url(images/love_is_in_the_sky-wallpaper-1920x1080.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
    color: #000000;
    font-family: "Comic Sans MS";
    font-size: 20px;
@@ -29,20 +34,6 @@ body {
    padding: 0px 0px 0px 0px;
    vertical-align: top;
    width: 100px;
-}
-#wb_Trang_VipImage3 {
-   vertical-align: top;
-}
-#Trang_VipImage3 {
-   border: 0px #000000 solid;
-   -moz-box-sizing: border-box;
-   -webkit-box-sizing: border-box;
-   box-sizing: border-box;
-   display: inline-block;
-   height: 54px;
-   padding: 0px 0px 0px 0px;
-   vertical-align: top;
-   width: 213px;
 }
 #wb_Trang_VipImage2 {
    vertical-align: top;
@@ -124,7 +115,7 @@ body {
    background-image: none;
    border: 1px #000000 solid;
    font-size: 0;
-   height: 952px;
+   height: 876px;
    text-align: center;
    vertical-align: top;
    width: 498px;
