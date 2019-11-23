@@ -2,7 +2,7 @@ div#container {
    margin: 0 auto 0 auto;
    position: relative;
    text-align: left;
-   width: 2198px;
+   width: 2200px;
 }
 body {
    background-color: #FFFFFF;
@@ -68,7 +68,7 @@ body {
 #indexPanelMenu1_panel {
    display: none;
    position: absolute;
-   position: ;
+
    width: 100%;
    z-index: 9999;
 }
@@ -331,16 +331,6 @@ body {
    vertical-align: top;
    width: 100%;
 }
-#InlineFrame1 {
-   border: 1px #000000 solid;
-}
-#InlineFrame1 {
-   display: block;
-   float: left;
-   height: 48px;
-   vertical-align: top;
-   width: 100%;
-}
 #InlineFrame_-_Comment_Facebook {
    border: 1px #000000 none;
 }
@@ -399,7 +389,7 @@ body {
 #PanelMenu1_panel {
    display: none;
    position: absolute;
-   position: ;
+
    width: 100%;
    z-index: 9999;
 }
@@ -487,7 +477,7 @@ body {
 #PanelMenu2_panel {
    display: none;
    position: absolute;
-   position: ;
+
    width: 100%;
    z-index: 9999;
 }
