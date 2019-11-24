@@ -23,10 +23,10 @@ body {
    -webkit-box-sizing: border-box;
    box-sizing: border-box;
    display: inline-block;
-   height: 619px;
+   height: 500px;
    padding: 0px 0px 0px 0px;
    vertical-align: top;
-   width: 462px;
+   width: 500px;
 }
 #Table1 {
    background-color: transparent;
@@ -43,7 +43,7 @@ body {
    background-image: none;
    border: 1px #BFBFBF solid;
    font-size: 0;
-   height: 2496px;
+   height: 2378px;
    text-align: center;
    vertical-align: top;
    width: 850px;
