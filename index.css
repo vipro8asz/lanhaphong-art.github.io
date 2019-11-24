@@ -68,7 +68,7 @@ body {
 #indexPanelMenu1_panel {
    display: none;
    position: absolute;
-
+   position: ;
    width: 100%;
    z-index: 9999;
 }
@@ -130,7 +130,7 @@ body {
 #indexMarquee1 {
    display: block;
    float: left;
-   height: 113px;
+   height: 125px;
    vertical-align: top;
    width: 100%;
 }
@@ -389,7 +389,7 @@ body {
 #PanelMenu1_panel {
    display: none;
    position: absolute;
-
+   position: ;
    width: 100%;
    z-index: 9999;
 }
@@ -477,7 +477,7 @@ body {
 #PanelMenu2_panel {
    display: none;
    position: absolute;
-
+   position: ;
    width: 100%;
    z-index: 9999;
 }
@@ -544,4 +544,25 @@ body {
    padding: 0px 0px 0px 0px;
    vertical-align: top;
    width: 95px;
+}
+#SlideShow2 .image {
+   border-width: 0;
+   display: block;
+   float: left;
+   height: auto;
+   width: 100%;
+}
+#SlideShow2 li {
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+#SlideShow2 {
+   display: inline-block;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   width: 100%;
 }

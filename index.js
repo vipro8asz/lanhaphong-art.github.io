@@ -238,4 +238,16 @@
       {
           $.panel.hide($("#PanelMenu2_panel"));
       });
+      $("#SlideShow2").slideshow(
+      {
+         interval: 8000,
+         type: 'random',
+         effect: 'random',
+         direction: '',
+         count: 8,
+         pagination: false,
+         fullscreen: 0,
+         maxWidth: 1920,
+         effectlength: 3000
+      });
    });

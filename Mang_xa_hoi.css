@@ -43,7 +43,7 @@ body {
    background-image: none;
    border: 1px #BFBFBF solid;
    font-size: 0;
-   height: 2378px;
+   height: 2106px;
    text-align: center;
    vertical-align: top;
    width: 850px;
@@ -93,10 +93,10 @@ body {
    -webkit-box-sizing: border-box;
    box-sizing: border-box;
    display: inline-block;
-   height: 465px;
+   height: 146px;
    padding: 0px 0px 0px 0px;
    vertical-align: top;
-   width: 320px;
+   width: 190px;
 }
 #wb_Text3 {
    background-color: transparent;
@@ -118,10 +118,10 @@ body {
    -webkit-box-sizing: border-box;
    box-sizing: border-box;
    display: inline-block;
-   height: 146px;
+   height: 316px;
    padding: 0px 0px 0px 0px;
    vertical-align: top;
-   width: 190px;
+   width: 850px;
 }
 #wb_Text4 {
    background-color: transparent;
@@ -132,31 +132,6 @@ body {
    text-align: center;
 }
 #wb_Text4 div {
-   text-align: center;
-}
-#wb_Image5 {
-   vertical-align: top;
-}
-#Image5 {
-   border: 0px #000000 solid;
-   -moz-box-sizing: border-box;
-   -webkit-box-sizing: border-box;
-   box-sizing: border-box;
-   display: inline-block;
-   height: 316px;
-   padding: 0px 0px 0px 0px;
-   vertical-align: top;
-   width: 850px;
-}
-#wb_Text5 {
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-}
-#wb_Text5 div {
    text-align: center;
 }
 #wb_Text7 {
@@ -170,10 +145,10 @@ body {
 #wb_Text7 div {
    text-align: center;
 }
-#wb_Image6 {
+#wb_Image5 {
    vertical-align: top;
 }
-#Image6 {
+#Image5 {
    border: 0px #000000 solid;
    -moz-box-sizing: border-box;
    -webkit-box-sizing: border-box;
@@ -184,7 +159,7 @@ body {
    vertical-align: top;
    width: 800px;
 }
-#wb_Text8 {
+#wb_Text5 {
    background-color: transparent;
    background-image: none;
    border: 0px #000000 solid;
@@ -192,6 +167,31 @@ body {
    padding: 0;
    text-align: center;
 }
-#wb_Text8 div {
+#wb_Text5 div {
+   text-align: center;
+}
+#wb_Image6 {
+   vertical-align: top;
+}
+#Image6 {
+   border: 0px #000000 solid;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   height: 217px;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+   width: 212px;
+}
+#wb_Text6 {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_Text6 div {
    text-align: center;
 }
