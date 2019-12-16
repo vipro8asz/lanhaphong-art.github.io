@@ -38,7 +38,7 @@ body {
 #Am_nhacInlineFrame1 {
    display: block;
    float: left;
-   height: 298px;
+   height: 798px;
    vertical-align: top;
    width: 100%;
 }
@@ -57,8 +57,22 @@ body {
    background-image: none;
    border: 1px #000000 solid;
    font-size: 0;
-   height: 872px;
+   height: 1770px;
    text-align: center;
+   vertical-align: top;
+   width: 598px;
+}
+#wb_Yuri_Shatunov {
+   vertical-align: top;
+}
+#Yuri_Shatunov {
+   border: 0px #000000 solid;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   height: 222px;
+   padding: 0px 0px 0px 0px;
    vertical-align: top;
    width: 598px;
 }
@@ -71,8 +85,8 @@ body {
    -webkit-box-sizing: border-box;
    box-sizing: border-box;
    display: inline-block;
-   height: 222px;
+   height: 398px;
    padding: 0px 0px 0px 0px;
    vertical-align: top;
-   width: 598px;
+   width: 360px;
 }
