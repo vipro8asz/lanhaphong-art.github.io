@@ -2,7 +2,7 @@ div#container {
    margin: 0 auto 0 auto;
    position: relative;
    text-align: left;
-   width: 2198px;
+   width: 1698px;
 }
 body {
    background-color: #FFFFFF;
@@ -68,7 +68,7 @@ body {
 #indexPanelMenu1_panel {
    display: none;
    position: absolute;
-   position: ;
+
    width: 100%;
    z-index: 9999;
 }
@@ -295,7 +295,7 @@ body {
    background-image: none;
    border: 1px #BFBFBF solid;
    font-size: 0;
-   height: 1742px;
+   height: 2200px;
    text-align: center;
    vertical-align: top;
    width: 598px;
@@ -368,7 +368,7 @@ body {
 #PanelMenu1_panel {
    display: none;
    position: absolute;
-   position: ;
+
    width: 100%;
    z-index: 9999;
 }
@@ -456,7 +456,7 @@ body {
 #PanelMenu2_panel {
    display: none;
    position: absolute;
-   position: ;
+
    width: 100%;
    z-index: 9999;
 }
