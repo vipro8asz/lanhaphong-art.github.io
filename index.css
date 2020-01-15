@@ -295,7 +295,7 @@ body {
    background-image: none;
    border: 1px #BFBFBF solid;
    font-size: 0;
-   height: 2200px;
+   height: 1862px;
    text-align: center;
    vertical-align: top;
    width: 598px;
@@ -306,7 +306,7 @@ body {
 #InlineFrame-Media {
    display: block;
    float: left;
-   height: 798px;
+   height: 898px;
    vertical-align: top;
    width: 100%;
 }
