@@ -68,7 +68,7 @@ body {
 #indexPanelMenu1_panel {
    display: none;
    position: absolute;
-
+   position: fixed;
    width: 100%;
    z-index: 9999;
 }
@@ -130,7 +130,7 @@ body {
 #indexMarquee1 {
    display: block;
    float: left;
-   height: 167px;
+   height: 115px;
    vertical-align: top;
    width: 100%;
 }
@@ -295,7 +295,7 @@ body {
    background-image: none;
    border: 1px #BFBFBF solid;
    font-size: 0;
-   height: 1862px;
+   height: 1834px;
    text-align: center;
    vertical-align: top;
    width: 598px;
@@ -368,7 +368,7 @@ body {
 #PanelMenu1_panel {
    display: none;
    position: absolute;
-
+   position: fixed;
    width: 100%;
    z-index: 9999;
 }
@@ -456,7 +456,7 @@ body {
 #PanelMenu2_panel {
    display: none;
    position: absolute;
-
+   position: fixed;
    width: 100%;
    z-index: 9999;
 }
@@ -544,4 +544,7 @@ body {
    padding: 0;
    position: relative;
    width: 100%;
+}
+#InlineFrame1 {
+   border: 1px #C0C0C0 solid;
 }
