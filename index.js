@@ -96,7 +96,7 @@
    
    $(document).ready(function()
    {
-      $("#indexPanelMenu1").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'overlay', position: 'top', toggle: true});
+      $("#indexPanelMenu1").panel({animate: false, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'push', position: 'top', toggle: true});
       $("#indexPanelMenu1_markup ul li a").click(function(event)
       {
           $.panel.hide($("#indexPanelMenu1_panel"));
@@ -228,15 +228,10 @@
             }
          }
       });
-      $("#PanelMenu1").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'overlay', position: 'top', toggle: true});
+      $("#PanelMenu1").panel({animate: false, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'push', position: 'top', toggle: true});
       $("#PanelMenu1_markup ul li a").click(function(event)
       {
           $.panel.hide($("#PanelMenu1_panel"));
-      });
-      $("#PanelMenu2").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'overlay', position: 'top', toggle: true});
-      $("#PanelMenu2_markup ul li a").click(function(event)
-      {
-          $.panel.hide($("#PanelMenu2_panel"));
       });
       $("#SlideShow2").slideshow(
       {

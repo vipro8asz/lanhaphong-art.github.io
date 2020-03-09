@@ -264,5 +264,5 @@
          effectlength: 0
       });
       $("a[data-rel='indexPhotoGallery1']").attr('rel', 'indexPhotoGallery1');
-      $('#wb_indexPhotoGallery1 img').attr('title', '');$('#wb_indexPhotoGallery1').galleria({height:0.04});
+      $('#wb_indexPhotoGallery1 img').attr('title', '');$('#wb_indexPhotoGallery1').galleria({height:0.32});
    });

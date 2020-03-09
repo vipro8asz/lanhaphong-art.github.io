@@ -68,7 +68,6 @@ body {
 #indexPanelMenu1_panel {
    display: none;
    position: absolute;
-   position: fixed;
    width: 100%;
    z-index: 9999;
 }
@@ -368,7 +367,6 @@ body {
 #PanelMenu1_panel {
    display: none;
    position: absolute;
-   position: fixed;
    width: 100%;
    z-index: 9999;
 }
@@ -417,94 +415,6 @@ body {
    width: 20px;
 }
 #PanelMenu1_markup span {
-   display: inline-block;
-   height: 20px;
-   line-height: 20px;
-   vertical-align: middle;
-}
-#wb_PanelMenu2 a,
-#PanelMenu2_markup li a {
-   display: block;
-   text-align: center;
-   vertical-align: middle;
-}
-#PanelMenu2_markup {
-   display: none;
-   margin: 0;
-   padding: 0;
-}
-#PanelMenu2_panel #PanelMenu2_markup {
-   display: block;
-}
-#PanelMenu2_markup ul {
-   list-style-type: none;
-   list-style: none;
-   margin: 0;
-   padding: 0;
-}
-#PanelMenu2_markup li a,
-#PanelMenu2_markup li a:hover,
-#PanelMenu2_markup li .active {
-   -moz-box-shadow: none;
-   -webkit-box-shadow: none;
-   border-bottom-width: 1px;
-   border-radius: 0;
-   border-width: 0;
-   box-shadow: none;
-   padding: 5px 0px 3px 3px;
-}
-#PanelMenu2_panel {
-   display: none;
-   position: absolute;
-   position: fixed;
-   width: 100%;
-   z-index: 9999;
-}
-#wb_PanelMenu2 a,
-#PanelMenu2_markup li a {
-   background-color: #00BFFF;
-   background: -moz-radial-gradient(circle,#00BFFF 0%,#8A2BE2 100%);
-   background: -ms-radial-gradient(circle,#00BFFF 0%,#8A2BE2 100%);
-   background: -o-radial-gradient(circle,#00BFFF 0%,#8A2BE2 100%);
-   background: -webkit-radial-gradient(circle,#00BFFF 0%,#8A2BE2 100%);
-   background: radial-gradient(circle,#00BFFF 0%,#8A2BE2 100%);
-   border: 1px #2E2E2E solid;
-   color: #FFFFFF;
-   font-family: "Comic Sans MS";
-   font-size: 19px;
-   font-style: normal;
-   font-weight: normal;
-   text-decoration: none;
-}
-#wb_PanelMenu2 a:hover,
-#PanelMenu2_markup li a:hover,
-#PanelMenu2_markup li .active {
-   background-color: #FF4500;
-   background: -moz-radial-gradient(circle,#FF4500 0%,#FE00FE 100%);
-   background: -ms-radial-gradient(circle,#FF4500 0%,#FE00FE 100%);
-   background: -o-radial-gradient(circle,#FF4500 0%,#FE00FE 100%);
-   background: -webkit-radial-gradient(circle,#FF4500 0%,#FE00FE 100%);
-   background: radial-gradient(circle,#FF4500 0%,#FE00FE 100%);
-   border: 1px #000000 solid;
-   color: #FFFFFF;
-}
-#PanelMenu2_panel {
-   background-color: #00BFFF;
-   overflow-y: auto;
-}
-#PanelMenu2 {
-   height: 48px;
-   line-height: 48px;
-   position: absolute;
-   width: 596px;
-}
-#PanelMenu2_markup ul li i {
-   font-size: 20px;
-   padding: 0px 3px 0px 0px;
-   vertical-align: middle;
-   width: 20px;
-}
-#PanelMenu2_markup span {
    display: inline-block;
    height: 20px;
    line-height: 20px;
